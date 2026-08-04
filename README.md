@@ -2,18 +2,6 @@
 
 A curated literature map of AI agents that plan, program, orchestrate, diagnose, coordinate, or improve robots and robot policies.
 
-> **67 works · 8 categories · last updated 2026-08-04**
-
-Agentic robotics treats a foundation model or coding agent as an active participant in a robot's control or learning loop: it may select tools, write executable policies, inspect execution feedback, maintain memory, acquire skills, coordinate robots, or modify the training system itself. This list emphasizes systems connected to physical robot tasks while retaining influential simulation-only precursors and evaluation work.
-
-## Scope and conventions
-
-- **Included:** methods in which an LLM, VLM, MLLM, or coding agent performs explicit planning, tool use, program synthesis, reflection, memory, skill discovery, multi-agent coordination, evaluation, or policy improvement for a robot.
-- **Excluded:** pure end-to-end vision-language-action models, standard imitation or reinforcement learning, and perception-only models unless an explicit agent loop is central to the contribution.
-- **Date:** the earliest verifiable public paper release, not the later proceedings date; lists are reverse chronological within each category.
-- **Venue:** the archival venue when verified, otherwise arXiv; a venue year can therefore be later than the release date.
-- **Evidence:** **Physical** means direct hardware experiments, **Sim + physical** means both, **Sim-to-real** means a transfer study, **Simulation** means no hardware evidence reported, and **Review** denotes a survey or perspective.
-- Each work appears once under its primary agentic contribution, although many systems span multiple categories.
 
 ## Taxonomy
 
