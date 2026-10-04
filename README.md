@@ -65,6 +65,7 @@ Maestro's current author-hosted paper and project page use “Coding Agents”; 
 
 | Date | Method and paper | Venue | Evidence | One-sentence contribution |
 |---|---|---|---|---|
+| 2026-09 | **APPL** — [Agent Priors-guided Policy Learning](https://arxiv.org/abs/2609.35690) | arXiv | Simulation | A language-model construction agent segments demonstrations into skills and trains and verifies one policy per proposed structural prior, and a runtime agent selects and composes these policies through interfaces stating each prior's applicability. |
 | 2026-06 | **ASPIRE** — [Agentic /Skills Discovery for Robotics](https://arxiv.org/abs/2607.00272) | arXiv | Sim-to-real | ASPIRE uses multimodal execution traces, autonomous code repair, evolutionary exploration, and a growing library to discover reusable cross-task robot skills. |
 | 2026-03 | **Uni-Skill** — [Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation](https://arxiv.org/abs/2603.02623) | arXiv | Sim + physical | Uni-Skill detects missing capabilities during planning and retrieves automatically annotated video demonstrations to implement and retain new skills. |
 | 2026-03 | **Act-Observe-Rewrite** — [Multimodal Coding Agents as In-Context Policy Learners for Robot Manipulation](https://arxiv.org/abs/2603.04466) | arXiv | Simulation | A multimodal coding agent observes trial outcomes and rewrites the complete executable controller between episodes without gradients or demonstrations. |
