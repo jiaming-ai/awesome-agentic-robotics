@@ -2,7 +2,7 @@
 
 This is the companion repository for the survey **A Survey of Agentic Robotics: Toward Continual Self-Improvement**, by Jiaming Wang, Yuhua Jiang, Zhengcheng Shen, and Harold Soh.
 
-**Paper:** arXiv link coming soon. **Cite:** see [Citation](#citation).
+**Paper:** [alphaXiv](https://www.alphaxiv.org/abs/2610.rsi-agentic-robotics). **Cite:** see [Citation](#citation).
 
 In classical robotics, engineers decompose tasks, specify objectives, write control code, and repair failures before deployment. In *agentic robotics*, a foundation model (FM), usually a large language model (LLM) or vision-language model (VLM), makes some of these decisions at run time or while the system improves. This repository lists the systems analyzed in the survey and organizes them with the survey's taxonomy: where the FM takes part in generating behavior, which improvement decisions it makes, and how feedback is retained.
 
@@ -327,7 +327,7 @@ The survey proposes that self-improvement benchmarks should report performance a
 
 ## Survey data
 
-The search records, screening and coding protocols, decisions, and per-system labels will be released in this repository with the paper.
+The search records, screening and coding protocols, decisions, and per-system labels will be released in this repository once the paper is published.
 
 ## Citation
 
@@ -338,7 +338,7 @@ If you find this survey or list useful, please cite:
   title  = {A Survey of Agentic Robotics: Toward Continual Self-Improvement},
   author = {Wang, Jiaming and Jiang, Yuhua and Shen, Zhengcheng and Soh, Harold},
   year   = {2026},
-  note   = {Preprint}
+  url    = {https://www.alphaxiv.org/abs/2610.rsi-agentic-robotics}
 }
 ```
 
