@@ -296,6 +296,7 @@ There is no shared benchmark for self-improvement yet. These are reusable benchm
 | [CaP-Bench](https://arxiv.org/abs/2603.22435) | T, M; I substrate | CaP-Gym over robot simulators | Coding-agent performance while varying API abstraction, perceptual grounding, multi-turn interaction, visual feedback, and skill synthesis. |
 | [RAI Bench](https://arxiv.org/abs/2505.07532) | T, M; I substrate | ROS 2 / O3DE and tool calls | Manipulation, tool-calling, and VLM benchmarks of the RAI framework; RHO optimizes a deployed agent harness on it. |
 | [ALRM Benchmark](https://arxiv.org/abs/2601.19510) | T, M | Simulation; 54 manipulation tasks | Multistep reasoning and linguistic variation under code-as-policy and tool-as-policy execution. |
+| [RoboRisk](https://arxiv.org/abs/2611.14115) | T | Panda simulation (92 tasks) and a physical Dobot CR5 arm (13 tasks) | Harm rate and safe-success rate of FM planners in closed-loop execution across unsafe goals, unsafe plans, execution-time hazards, prompt injection, and sequential memory (released with LEASH). |
 
 The survey proposes that self-improvement benchmarks should report performance as a function of the improvement budget (physical episodes, robot-hours, human interventions, wall-clock time, or simulation interactions). They should keep development, validation, and test tasks apart, and report transfer to held-out tasks, regression on earlier capabilities, and which improvement decisions the FM made.
 
